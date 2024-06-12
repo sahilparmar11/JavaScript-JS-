@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        str = prompt("Enter String: ")
+
+        firstOccurance = str.indexOf('a')
+        document.write("Position of first accurance of a : "+firstOccurance+"<br/>")
+        lastOccurance = str.lastIndexOf('a')
+        document.write("Position of last accurance of a : "+lastOccurance+"<br/>")
+
+        str2 = str.slice(firstOccurance+1,lastOccurance)
+        document.write("Remaining String: "+str2)
+
+    </script>
+</body>
+</html>
